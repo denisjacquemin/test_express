@@ -1,0 +1,14 @@
+%html{xmlns: "http://www.w3.org/1999/xhtml"}
+  %head
+    %title Example Express App
+    %link{ rel: 'stylesheet', href: '/public/stylesheets/style.css' }
+    %script{ src: '/public/javascripts/jquery.1.4.2.min.js' }
+    %script{ src: '/public/javascripts/app.js' }
+  %body
+    #header
+      %h1
+        %a{ href: '/' }  Home
+    #main
+      #mid
+        #content
+          != body

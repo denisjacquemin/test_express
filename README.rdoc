@@ -1,0 +1,9 @@
+= Test Express
+
+My first app running with {express js}[http://github.com/visionmedia/express] framework based on {node}[http://github.com/ry/node]
+
+Set the title variable in controller (lib/app.js) and use it in the view (lib/views/index.html.haml)
+
+That's it!
+
+Inspired by {heroku-express}[http://github.com/atmos/heroku-express]
